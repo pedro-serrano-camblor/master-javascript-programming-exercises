@@ -1,4 +1,7 @@
 function equalsTen(num) {
-  // your code here
-  
+ // your code here
+  if (num == 10) { return true; }
+  else {return false;}
 }
+
+console.log(equalsTen(10));
