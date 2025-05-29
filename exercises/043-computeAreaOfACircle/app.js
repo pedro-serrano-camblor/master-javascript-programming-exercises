@@ -1,5 +1,7 @@
 function computeAreaOfACircle(radius) {
     // your code here
+    let output = Math.PI * (radius * radius);
+    return output;
 }
 
 let output = computeAreaOfACircle(4);
